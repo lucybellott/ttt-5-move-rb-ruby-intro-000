@@ -13,4 +13,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def input_to_index(user_input)
 user_input = "5".to_i
 new_input = user_input -1
+new_input
 end
