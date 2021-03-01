@@ -16,3 +16,6 @@ board = [" ", " ", " "]
 def move(board, position, char = "X")
   board[position] = char
 end
+
+move(board, 0, "X")
+board
